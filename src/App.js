@@ -10,7 +10,7 @@ class App extends Component {
       <Router>
         <Switch>
           {/* if i want to add more pages i can simply repeat line 13 */}
-          <Route exact path="/" component={Homepage}/>
+          <Route path="/" component={Homepage}/>
         </Switch>
       </Router>
     );
